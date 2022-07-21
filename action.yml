@@ -1,11 +1,11 @@
-name: Execute CumulusCI Flow
-description: 'Execute a named CumulusCI flow'
+name: Run Flow
+description: 'Execute a named Cumulus flow'
 inputs:
   org-name:
     description: 'Name of the scratch org or persistent org config to use'
     required: true
   flow-name:
-    description: 'Name of the CumulusCI flow to execute'
+    description: 'Name of the Cumulus flow to execute'
     required: true
 runs:
     using: "composite"
